@@ -34,6 +34,8 @@ import TreeGraph from './TreeGraph';
 import BubblePlot from './BubblePlot';
 import VisualizationTreeBubbleButton from './components/VisualizationTreeBubbleButton';
 
+
+
 function App() {
   const [countryData, setCountryData] = useState(null);
   const location = useLocation();
@@ -304,4 +306,6 @@ function App() {
     </div>
   );
 }
+
+
 export default App;

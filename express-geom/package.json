@@ -6,7 +6,8 @@
   "scripts": {
     "seed": "node seed.js",
     "dev": "nodemon index.js --ignore db.json",
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "Pablovem <contact@pablovem.com>",
   "license": "ISC",
